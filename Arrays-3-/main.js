@@ -28,6 +28,7 @@ document.write("<br>"+array2[0][2]); //queria imprimir 568 (indice dos del indic
 //los elementos dentro de cada array
 for(let i=0; i<array2.length; i++){  //recorre elementos array grande
     for(let j=0; j<3; j++){ //recorre elementos arrays pequeños
+        //j<array2[i].length; si no sé la longitud de cada array pequeño
         document.write(array2[i][j] + "<br>"); 
         // recorre indices: [0.0 0.1 0.2] / [1.0 1.1 1.2] / [2.0 2.1 2.2]
     }
