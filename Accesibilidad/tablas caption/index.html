@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <a href="#seccion2">saltar tablas</a>
+    <!-- tablas para accesibilidad
+    se aconseja poner un CAPTION que empiece por "tabla" -->
+
+    <!-- se aconseja thead, tbody y tfoot también -->
+    <!-- se aconseja un vinculo que se la pueda saltar    -->
+
+    <!-- version 1 -->
+    <h2>Tabla 1</h2>
+    <table>
+      <caption>
+        Tabla de películas y directores
+      </caption>
+      <!-- cabecera -->
+      <thead>
+        <tr>
+          <th>Película</th>
+          <th>Director</th>
+        </tr>
+      </thead>
+      <!-- cuerpo -->
+      <tbody>
+        <tr>
+          <td>Los Otros</td>
+          <td>Alejandro Amenábar</td>
+        </tr>
+        <tr>
+          <td>Los pájaros</td>
+          <td>Alfred Hitchcock</td>
+        </tr>
+      </tbody>
+    </table>
+    <br /><br /><br />
+
+    <!-- version 2 -->
+    <h2>Tabla 2</h2>
+    <!-- añadir id y headers -->
+    <table>
+      <caption>
+        Tabla de películas y directores
+      </caption>
+      <!-- añadir id y referencias -->
+        <tr>
+          <th id="peli">Película</th>
+          <th id="dir">Director</th>
+        </tr>
+      
+        <tr>
+          <td headers="peli">Los Otros</td>
+          <td headers="dir">Alejandro Amenábar</td>
+        </tr>
+        <tr>
+          <td headers="peli">Los pájaros</td>
+          <td headers="dir">Alfred Hitchcock</td>
+        </tr> 
+    </table>
+    <br /><br /><br />
+    
+    <!-- aqui es donde va si se salta las tablas -->
+    <h2>Sección 2</h2>
+    <p id="seccion2">
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium
+      suscipit ex, sit incidunt quisquam totam nostrum nulla laudantium sequi
+      perferendis harum iusto, dicta eum magnam iure id temporibus dolores a
+      voluptate. Aliquam esse quae quis iste repellat, ex rerum ipsam!
+    </p>
+    <br><br>
+  </body>
+</html>

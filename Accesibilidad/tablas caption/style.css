@@ -1,0 +1,10 @@
+table th, td{
+    border: solid 1px grey;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+/* caption{
+    position: relative;
+    left: -1000px;
+} */

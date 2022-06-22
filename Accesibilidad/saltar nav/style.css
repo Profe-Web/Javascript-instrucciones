@@ -1,0 +1,8 @@
+.oculto {
+    position: relative;
+    left: -1000px;
+}
+
+#etiquetaCampo{
+    color: white;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- esta parte sale en pag 14 del libro -->
+        <!-- vinculo para saltar el menu de navegacion -->
+        <a href="#contenido" class="oculto">Pulsar ENTER para saltar navegación</a>
+
+        <!-- menu de navegacion -->
+        <nav id="barraNav">
+                <a href="inicio.html">Inicio</a>
+                <a href="futbol.html">Fútbol</a>
+                <a href="baloncesto.html">Baloncesto</a>
+                <a href="f1.html">Fórmula 1</a>
+                <a href="moto.html">Motociclismo</a>
+                <a href="tenis.html">Tenis</a>
+                <a href="contacto.html">Contacto</a>
+        </nav>
+        <a href="#ultimo">Saltar a la última sección</a>
+
+        <!-- destino del vinculo 'oculto'-->
+        <br><br><br>
+        
+        <img src="Mural-mitjera-pintado.jpg" alt="Imagen que compara un muro antes y después de pintarlo artísticamente" width="500">
+
+        <!-- si la imagen es decorativa, dejar alt vacio -->
+        <form action="">
+            <div id="etiquetaCampo">
+                Aqui probando texto escondido. Un, dos, tres
+            </div>
+            <input type="text" aria-labelledby="etiqueta campo">
+            <input type="button" value="Cancelar" aria-describedby="descBoton">
+            <div id="descBoton"> <!--esta info se puede ocultar-->
+                Este botón cancela el proceso, toda la información introducida se perderá
+            </div>
+        </form>
+
+        <!-- figcaption tambien se lee -->
+        <figure>
+            <img src="Chat_Noir.jpeg" alt="Cartel del gato negro" width="500px">
+            <figcaption>Un famoso local que marcó época a finales del siglo 19 en París</figcaption>
+        </figure>
+        <p id="ultimo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis veritatis beatae, quos porro id sequi maiores fuga temporibus perspiciatis culpa officiis adipisci, eaque magni natus delectus repellendus? Ad iure itaque quod libero quidem doloremque cumque dolore alias a, labore ipsa possimus sunt sequi vero, quam repudiandae repellendus nobis laboriosam ullam.</p>
+        <article id="contenido">Aquí está el contenido directo desde SALTAR NAVEGACION</article>
+        <br>
+    </body>
+</html>
